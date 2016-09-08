@@ -1,0 +1,11 @@
+2016-09-07  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION: Added for version 0.0.1
+	* NAMESPACE: Ditto
+	* src/gettz.cpp: Adapted for R package use
+	* R/gettz.R (gettz): One statement function calling C++ code
+	* man/gettz-package.Rd: Basic manual page
+
+	* README.md: Added
+
+
