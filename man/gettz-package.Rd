@@ -13,8 +13,10 @@
   This package provides a single function \code{gettz} which looks
   at \code{/etc/timezone} (on Debian/Ubuntu), \code{/etc/sysconfig/clock}
   (on RedHat/CentOS/Fedora) or \code{/etc/TIMEZONE} (on Solaris).  
+  In case no information can be provided, \code{NULL} is returned.
 
-  At his point, OS X is unknown, and Windows is as usual a write-off.
+  Windows is not currently supported, but could probably deploy
+  custom code to query the registry.  
 }
 \references{\url{http://stackoverflow.com/a/33881726/143305}}
 \author{\packageAuthor{gettz}}

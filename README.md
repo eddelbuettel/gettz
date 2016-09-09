@@ -21,7 +21,11 @@ package essentially adapted his code to be callable from R.
 
 ### Status
 
-Works on Linux, expected to work on Solaris, currently unknown on OS X.
+Works on Linux, expected to also work on Solaris and BSD, builds on OS
+X but only returns `NULL` due to the apparent lack of any programmatic
+interface.
+
+Windows could possibly be supported by querying the registry.
 
 ### Author
 
