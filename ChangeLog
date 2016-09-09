@@ -3,6 +3,8 @@
 	* R/gettz.R (gettz): Return result visibly, added copyright header
 	* src/gettz.cpp: Added copyright header
 
+	* .travis.yml: Added, using run.sh from Travis CI
+
 2016-09-08  Dirk Eddelbuettel  <edd@debian.org>
 
 	* man/gettz-package.Rd: Minor rewording of status
