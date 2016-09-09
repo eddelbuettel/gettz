@@ -1,6 +1,7 @@
 2016-09-09  Dirk Eddelbuettel  <edd@debian.org>
 
-	* R/gettz.R (gettz): Return result visibly
+	* R/gettz.R (gettz): Return result visibly, added copyright header
+	* src/gettz.cpp: Added copyright header
 
 2016-09-08  Dirk Eddelbuettel  <edd@debian.org>
 
