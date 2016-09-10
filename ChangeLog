@@ -6,6 +6,8 @@
 
 	* .Rbuildignore: Added
 
+	* README.md: Added badges
+
 2016-09-09  Dirk Eddelbuettel  <edd@debian.org>
 
 	* R/gettz.R (gettz): Return result visibly, added copyright header
