@@ -1,3 +1,11 @@
+2016-09-10  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Date, Version): Release 0.0.1
+
+	* DESCRIPTION (URL, BugReports): Added
+
+	* .Rbuildignore: Added
+
 2016-09-09  Dirk Eddelbuettel  <edd@debian.org>
 
 	* R/gettz.R (gettz): Return result visibly, added copyright header
