@@ -34,10 +34,10 @@ The package is now on [CRAN](https://cran.r-project.org) and can be installed
 via a standard
 
 ```r
-R> install.package("gettz")
+R> install.packages("gettz")
 ```
 
-provided you are on a Unix system.  
+provided you are on a Unix system.
 
 ### Author
 
