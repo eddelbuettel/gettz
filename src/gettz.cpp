@@ -80,6 +80,7 @@ extern "C" SEXP gettz_impl(void) {
 
 char *findDefaultTZ(char *tz, size_t tzSize) {
     char *ret = NULL;
+#ifndef _WIN32    
     // If there is an /etc/timezone file, then we expect it to contain
     // nothing except the timezone. 
     FILE *fd = fopen("/etc/timezone", "r"); 	// Debian and Ubuntu 
@@ -102,6 +103,7 @@ char *findDefaultTZ(char *tz, size_t tzSize) {
         ret = tz;
     else if (getValue("/etc/TIMEZONE", "TZ", tz, tzSize))     		// Solaris
         ret = tz;
+#endif    
     return ret;
 }
 

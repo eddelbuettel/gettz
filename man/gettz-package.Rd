@@ -15,8 +15,9 @@
   (on RedHat/CentOS/Fedora) or \code{/etc/TIMEZONE} (on Solaris).  
   In case no information can be provided, \code{NULL} is returned.
 
-  Windows is not currently supported, but could probably deploy
-  custom code to query the registry.  
+  Windows support is bare-bones: the package builds, but does not do
+  anything. One could probably deploy custom code to query the registry
+  but given that R already does, there is imminent need.  
 }
 \references{\url{http://stackoverflow.com/a/33881726/143305}}
 \author{\packageAuthor{gettz}}
