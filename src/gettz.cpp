@@ -111,9 +111,7 @@ char *findDefaultTZ(char *tz, size_t tzSize) {
 // in the provided value parameter up to valueSize in length.  If someValue
 // is enclosed in quotes, remove them. 
 char *getValue(const char *filename, const char *tag, char *value, size_t valueSize) {
-
 #ifndef _WIN32
-
     char buffer[128], *lasts;
     int foundTag = 0;
 
