@@ -22,11 +22,12 @@ package essentially adapted his code to be callable from R.
 
 ### Status
 
-Works on Linux, expected to also work on Solaris and BSD, builds on OS
-X but only returns `NULL` due to the apparent lack of any programmatic
+Works on Linux, expected to also work on Solaris and BSD, builds on OS X and
+Windows but only returns `NULL` due to the apparent lack of any programmatic
 interface.
 
-Windows could possibly be supported by querying the registry.
+Windows could possibly be supported better by querying the
+registry. Contributions / pull requests would be welcomed on this.
 
 ### Installation
 
@@ -34,10 +35,10 @@ The package is now on [CRAN](https://cran.r-project.org) and can be installed
 via a standard
 
 ```r
-R> install.packages("gettz")
+install.packages("gettz")
 ```
 
-provided you are on a Unix system.
+command.
 
 ### Author
 
