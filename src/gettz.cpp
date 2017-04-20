@@ -107,6 +107,8 @@ char *findDefaultTZ(char *tz, size_t tzSize) {
     return ret;
 }
 
+#ifndef _WIN32
+
 // Look for tag=someValue within filename.  When found, return someValue
 // in the provided value parameter up to valueSize in length.  If someValue
 // is enclosed in quotes, remove them. 
@@ -158,3 +160,5 @@ char *getValue(const char *filename, const char *tag, char *value, size_t valueS
 #endif
     return NULL;
 }
+
+#endif
