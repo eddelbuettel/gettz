@@ -1,3 +1,13 @@
+2020-04-13  Dirk Eddelbuettel  <edd@debian.org>
+
+ 	* DESCRIPTION (Version, Date): Release 0.0.4
+
+	* src/init.c: Added R_registerRoutines and R_useDynamicSymbols
+	* NAMESPACE: Add .registration=TRUE to useDynLib()
+	* R/gettz.R (gettz): Call unquoted (now registered) symbol
+
+	* README.md: Add 'dependencies' and 'last commit' badges
+
 2017-02-23  Dirk Eddelbuettel  <edd@debian.org>
 
 	* .travis.yml (before_install): Use https to fetch script

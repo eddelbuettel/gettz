@@ -1,2 +1,2 @@
-useDynLib("gettz")
-export("gettz")
+useDynLib(gettz, .registration=TRUE)
+export(gettz)

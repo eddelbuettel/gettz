@@ -1,7 +1,11 @@
-## gettz [![Build Status](https://travis-ci.org/eddelbuettel/gettz.svg)](https://travis-ci.org/eddelbuettel/gettz) [![License](http://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-2.0.html) [![CRAN](http://www.r-pkg.org/badges/version/gettz)](https://cran.r-project.org/package=gettz) [![Downloads](http://cranlogs.r-pkg.org/badges/gettz?color=brightgreen)](http://www.r-pkg.org/pkg/gettz)
+## gettz: Get System Timezone Information
 
-
-Get System Timezone Information
+[![Build Status](https://travis-ci.org/eddelbuettel/gettz.svg)](https://travis-ci.org/eddelbuettel/gettz) 
+[![License](http://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-2.0.html) 
+[![CRAN](http://www.r-pkg.org/badges/version/gettz)](https://cran.r-project.org/package=gettz) 
+[![Dependencies](https://tinyverse.netlify.com/badge/gettz)](https://cran.r-project.org/package=gettz)
+[![Downloads](http://cranlogs.r-pkg.org/badges/gettz?color=brightgreen)](http://www.r-pkg.org/pkg/gettz)
+[![Last Commit](https://img.shields.io/github/last-commit/eddelbuettel/gettz)](https://github.com/eddelbuettel/gettz)
 
 ### Motivation
 
