@@ -1,0 +1,7 @@
+
+rm -rf \
+   *~ \
+   src/*.o \
+   src/*.so \
+   src/*.dylib \
+   src/*~ 
