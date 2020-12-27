@@ -1,6 +1,7 @@
 ## gettz: Get System Timezone Information
 
 [![Build Status](https://travis-ci.org/eddelbuettel/gettz.svg)](https://travis-ci.org/eddelbuettel/gettz) 
+[![CI](https://github.com/eddelbuettel/gettz/workflows/ci/badge.svg)](https://github.com/eddelbuettel/gettz/actions?query=workflow%3Aci)
 [![License](http://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-2.0.html) 
 [![CRAN](http://www.r-pkg.org/badges/version/gettz)](https://cran.r-project.org/package=gettz) 
 [![Dependencies](https://tinyverse.netlify.com/badge/gettz)](https://cran.r-project.org/package=gettz)
