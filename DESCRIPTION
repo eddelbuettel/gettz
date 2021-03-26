@@ -10,7 +10,7 @@ Description: A function to retrieve the system timezone on Unix systems
  It is based on an answer by Duane McCully posted on 'StackOverflow', and
  adapted to be callable from R. The package also builds on Windows, but
  just returns NULL.
-URL: http://dirk.eddelbuettel.com/code/gettz.html
+URL: https://github.com/eddelbuettel/gettz/, https://dirk.eddelbuettel.com/code/gettz.html
 BugReports: https://github.com/eddelbuettel/gettz/issues
 License: GPL (>= 2)
 RoxygenNote: 5.0.1
