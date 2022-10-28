@@ -8,7 +8,7 @@
 */
 
 /* .Call calls */
-extern SEXP gettz_impl();
+extern SEXP gettz_impl(void);
 
 static const R_CallMethodDef CallEntries[] = {
     {"gettz_impl", (DL_FUNC) &gettz_impl, 0},
