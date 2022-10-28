@@ -1,10 +1,10 @@
 ## gettz: Get System Timezone Information
 
 [![CI](https://github.com/eddelbuettel/gettz/workflows/ci/badge.svg)](https://github.com/eddelbuettel/gettz/actions?query=workflow%3Aci)
-[![License](http://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-2.0.html) 
-[![CRAN](http://www.r-pkg.org/badges/version/gettz)](https://cran.r-project.org/package=gettz) 
+[![License](https://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](https://www.gnu.org/licenses/gpl-2.0.html) 
+[![CRAN](https://www.r-pkg.org/badges/version/gettz)](https://cran.r-project.org/package=gettz) 
 [![Dependencies](https://tinyverse.netlify.com/badge/gettz)](https://cran.r-project.org/package=gettz)
-[![Downloads](http://cranlogs.r-pkg.org/badges/gettz?color=brightgreen)](http://www.r-pkg.org/pkg/gettz)
+[![Downloads](https://cranlogs.r-pkg.org/badges/gettz?color=brightgreen)](https://www.r-pkg.org:443/pkg/gettz)
 [![Last Commit](https://img.shields.io/github/last-commit/eddelbuettel/gettz)](https://github.com/eddelbuettel/gettz)
 
 ### Motivation
@@ -21,7 +21,7 @@ corresponding (local) timezone metadata).  Another issue is, once again, that
 the code which R uses here is sadly _not_ accessible to users via a callable
 API for C or C++.  So there is a need for something different---and Duane
 McCully provided just that
-[in this StackOverflow answer](http://stackoverflow.com/a/33881726/143305). This
+[in this StackOverflow answer](https://stackoverflow.com/a/33881726/143305). This
 package essentially adapted his code to be callable from R.
 
 ### Status

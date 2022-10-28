@@ -19,7 +19,7 @@
   anything. One could probably deploy custom code to query the registry
   but given that R already does, there is imminent need.  
 }
-\references{\url{http://stackoverflow.com/a/33881726/143305}}
+\references{\url{https://stackoverflow.com/a/33881726/143305}}
 \author{\packageAuthor{gettz}}
 \keyword{package}
 \examples{

@@ -4,6 +4,9 @@
 
 	* .github/workflows/ci.yaml (jobs): Update to actions/checkout@v3
 
+	* README.md: Update URLs to https
+	* man/gettz-package.Rd: Ditto
+
 2021-11-08  Dirk Eddelbuettel  <edd@debian.org>
 
  	* README.md: Remove Travis badge
