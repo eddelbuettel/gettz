@@ -1,5 +1,7 @@
 2022-10-28  Dirk Eddelbuettel  <edd@debian.org>
 
+ 	* DESCRIPTION (Version, Date): Release 0.0.5
+
 	* src/init.c: Add void for proper prototype to please clang-15
 
 	* .github/workflows/ci.yaml (jobs): Update to actions/checkout@v3
