@@ -3,7 +3,7 @@
 [![CI](https://github.com/eddelbuettel/gettz/workflows/ci/badge.svg)](https://github.com/eddelbuettel/gettz/actions?query=workflow%3Aci)
 [![License](https://img.shields.io/badge/license-GPL%20%28%3E=%202%29-brightgreen.svg?style=flat)](https://www.gnu.org/licenses/gpl-2.0.html) 
 [![CRAN](https://www.r-pkg.org/badges/version/gettz)](https://cran.r-project.org/package=gettz) 
-[![Dependencies](https://tinyverse.netlify.com/badge/gettz)](https://cran.r-project.org/package=gettz)
+[![Dependencies](https://tinyverse.netlify.app/badge/gettz)](https://cran.r-project.org/package=gettz)
 [![Downloads](https://cranlogs.r-pkg.org/badges/gettz?color=brightgreen)](https://www.r-pkg.org:443/pkg/gettz)
 [![Last Commit](https://img.shields.io/github/last-commit/eddelbuettel/gettz)](https://github.com/eddelbuettel/gettz)
 
