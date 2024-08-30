@@ -3,8 +3,8 @@ Type: Package
 Title: Get the Timezone Information
 Version: 0.0.5
 Date: 2022-10-28
-Author: Dirk Eddelbuettel
-Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Authors@R: person("Dirk", "Eddelbuettel", role = c("aut", "cre"), email = "edd@debian.org",
+                  comment = c(ORCID = "0000-0001-6419-907X"))
 Description: A function to retrieve the system timezone on Unix systems
  which has been found to find an answer when 'Sys.timezone()' has failed.
  It is based on an answer by Duane McCully posted on 'StackOverflow', and
