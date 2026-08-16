@@ -1,3 +1,7 @@
+2026-08-16  Dirk Eddelbuettel  <edd@debian.org>
+
+	* README.md: Note that R now covers the original motivation
+
 2026-08-10  Dirk Eddelbuettel  <edd@debian.org>
 
 	* .github/workflows/ci.yaml: Switch to actions/checkout@v7
@@ -45,7 +49,7 @@
 
 2020-12-27  Dirk Eddelbuettel  <edd@debian.org>
 
-        * .github/workflows/ci.yaml: Add CI runner using r-ci
+	* .github/workflows/ci.yaml: Add CI runner using r-ci
 	* README.md: Add new CI badge
 
 2020-05-13  Dirk Eddelbuettel  <edd@debian.org>
