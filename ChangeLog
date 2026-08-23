@@ -3,6 +3,8 @@
 	* DESCRIPTION (Description): Also note in DESCRIPTION that
 	the functionality is now in base R
 
+	* README.md: Add r-universe badge
+
 2026-08-16  Dirk Eddelbuettel  <edd@debian.org>
 
 	* README.md: Note that R now covers the original motivation
