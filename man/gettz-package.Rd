@@ -2,6 +2,7 @@
 \alias{gettz-package}
 \alias{gettz}
 \docType{package}
+\usage{gettz()}
 \title{\packageTitle{gettz}}
 \description{\packageDescription{gettz}}
 \details{
@@ -17,7 +18,11 @@
 
   Windows support is bare-bones: the package builds, but does not do
   anything. One could probably deploy custom code to query the registry
-  but given that R already does, there is imminent need.  
+  but given that R already does this, there is no imminent need.
+
+  Well after the package was created, R added functionality for retrieving
+  timezone information making its approach more robust and reducing the need
+  for this package.
 }
 \references{\url{https://stackoverflow.com/a/33881726/143305}}
 \author{\packageAuthor{gettz}}
